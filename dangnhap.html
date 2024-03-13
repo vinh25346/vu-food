@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+body {
+    background-image: url(images/am-thuc-trung-quoc-elle-viet-nam-17.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 37%;
+    margin-top: 10%;
+    opacity: 0.9;
+}
+.dangnhap{
+    background-color: rgb(206, 220, 223);
+    border: 2px solid rgb(51, 46, 46);
+    border-radius: 4mm;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.14);
+    text-align: center;
+    width: 400px;
+    min-height: 420px;
+}
+.dangnhap > .dong1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+form{
+    padding: 20px;
+}
+.thongtin{
+    padding: 10px;
+    border-radius: 5px;
+}
+.thu1{
+    width: 280px;
+    padding: 0.75rem;
+    box-shadow: 5px 5px 10px rgb(176, 173, 173);
+    color:darkgray;
+    border-radius: 2mm;
+}
+.dnhap:hover{
+    background-color:  rgb(150, 243, 150);;
+    transform: scale(0.95); 
+    cursor: pointer;
+}
+.dnhap{
+    margin: 5px;
+    width: 280px;
+    background: rgb(119, 225, 119);
+    box-shadow: 3px 5px 10px rgb(147, 144, 144);
+    border-radius: 2mm;
+    border: 2px solid rgb(119, 225, 119);
+}
+.dnhap p{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 99, 237);
+}
+.phuongankhac {
+    justify-content: space-between;
+}
+.mo{
+    margin: 10px;
+    align-items: center;
+    display: flex;
+}
+.daugach{
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+}
+.hoac{
+    color: #ccc;
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.facebook:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+.facebook {
+    width: 150px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 2mm;
+}
+.fbvsgg{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.facebook p{
+    float: right;
+    font-size: 16px;
+}
+.google:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+.google{
+    min-width: 150px;
+    background: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 2mm;
+}
+.google p{
+    float: right;
+    font-size: 16px;
+}
+.phancuoi{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.phancuoi > .mo > .hoac {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.dong2{
+    color:black;
+    font-weight: bold;
+    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="dangnhap">
+            <div class="dong1">ĐĂNG NHẬP</div>
+            <form>
+                <div class="thongtin">
+                    <input class="thu1" type="text" placeholder="Email/Số điện thoại/Tên đăng nhập" value>
+                </div>
+                <div class="thongtin">
+                    <input class="thu1" type="password" placeholder="Mật khẩu">
+                </div>
+                <button class="dnhap"><p><a href="quanlinguoididung.html">ĐĂNG NHẬP</a></p> </button>
+            </form>
+            <div class="phuongankhac">
+                <a href="#">Quên mật khẩu?</a>
+                <a href="dangky.html">Đăng ký</a>
+            </div>
+            <div class="phancuoi">
+                <div class="mo">
+                    <div class="daugach"></div>
+                    <span class="hoac">HOẶC</span>
+                    <div class="daugach"></div>
+                </div>
+                <div class="cachkhac">
+                    <button class="facebook">
+                        <div class="fbvsgg">
+                            <img src="facebook.png">
+                            <p>Facebook</p>
+                        </div>
+                    </button>
+                    <button class="google">
+                        <div class="fbvsgg">
+                            <img src="google.png">
+                            <p>Google</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
